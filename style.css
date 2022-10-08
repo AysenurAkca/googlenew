@@ -1,0 +1,132 @@
+body{
+    position: relative;
+}
+.navbar-ul {
+    list-style: none;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    
+
+}
+
+.navbar-ul li {
+    display: inline-block;
+    
+    
+}
+.navbar-ul li:last-child i{
+    display: inline-block;
+    color: blue;
+    
+    
+}
+
+.navbar-ul li a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    
+}
+
+.navbar-ul li a:hover {
+    text-decoration: underline;
+    
+    
+}
+#main{
+    position: relative;
+}
+
+#main img {
+    position: absolute;
+    top: 50px;
+    left: 510px;
+
+}
+
+#main input {
+    position: absolute;
+    top: 270px;
+    left: 490px;
+    width: 520px;
+    height: 40px;
+    border-radius: 15px;
+
+}
+
+.inputwithicon input{
+    padding-left: 38px;
+    
+}
+.inputwithicon {
+    position: relative;
+}
+.inputwithicon i.fa-magnifying-glass {
+    position: absolute;
+    left: 507px;
+    top: 283px;
+
+}
+
+.inputwithicon .fa-microphone {
+    position: absolute;
+    left: 980px;
+    top: 283px;
+    color: blue;
+}
+
+.btn{
+    width: 150px;
+    /* height: 50px; */
+    background-color: lightgray;
+    text-align: center;
+    padding:10px 9px ;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.btns{
+    position: absolute;
+    left: 557px;
+    top: 340px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    
+    
+
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding-left: 27px;
+    
+}
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.left-footer{
+    float: left;
+    margin-left:18px ;
+}
+
+.right-footer{
+    float: right;
+    margin-right: 45px;
+}
